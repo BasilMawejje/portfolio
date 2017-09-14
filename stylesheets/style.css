@@ -1,0 +1,97 @@
+body{
+  background-color: #ffffff;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4060bf;
+    position: relative;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #0059b3;
+}
+
+h1{
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  color: #0059b3;
+}
+
+.subsections{
+  background-color: #bfbfbf;
+  height: 250px;
+  text-align: center;
+  border: 1px solid blue;
+  background-image: url('../images/geeky.jpg');
+}
+
+#project_link{
+  color: white;
+  vertical-align: middle;
+}
+
+#bio{
+  width: 100%;
+  height: auto;
+}
+
+#background{
+  width: 100%;
+  height: auto;
+}
+
+p{
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 20px;
+}
+
+#footer{
+  width: 100%;
+  height: auto;
+  color: white;
+  background-color: #4060bf;
+}
+
+.fa-quora {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-github {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+#icons{
+  float: right;
+  padding: 20px;
+  font-size: 25px;
+}
