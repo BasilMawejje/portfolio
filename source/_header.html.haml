@@ -1,0 +1,24 @@
+!!!
+%html
+  %head
+    %meta{content: "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %meta{charset: "utf-8"}/
+    %title Basil Kabe
+    %link{href: "stylesheets/style.css", rel: "stylesheet"}/
+    %script{src: "https://code.jquery.com/jquery-3.2.1.min.js", type: "text/javascript"}
+    %link{href: "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css", rel: "stylesheet"}/
+    %script{src: "https://cdnjs.cloudflare.com/ajax/lqibs/materialize/0.100.2/js/materialize.min.js"}
+    %link{href: "https://fonts.googleapis.com/icon?family=Material+Icons", rel: "stylesheet"}/
+    %link{href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css", rel: "stylesheet"}/
+  %body
+    #header
+      %nav.top_nav
+        %ul
+          %li
+            = link_to 'Home', '/', class: 'active'
+
+          %li
+            = link_to 'Contact', '/contact.html', class: 'active'
+
+          %li
+            = link_to 'About', '/about.html', class: 'active'

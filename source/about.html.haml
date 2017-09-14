@@ -1,0 +1,5 @@
+= partial "_header"
+%h1 About Me:
+- data.about.each do |contact|
+  %p= contact[:about]
+= partial "_footer"

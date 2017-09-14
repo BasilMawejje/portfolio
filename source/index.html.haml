@@ -1,0 +1,70 @@
+!!!
+%html
+  %head
+    %meta{content: "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %meta{charset: "utf-8"}/
+    %title Basil Kabe
+    %link{href: "stylesheets/style.css", rel: "stylesheet"}/
+    %script{src: "https://code.jquery.com/jquery-3.2.1.min.js", type: "text/javascript"}
+    %link{href: "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css", rel: "stylesheet"}/
+    %script{src: "https://cdnjs.cloudflare.com/ajax/lqibs/materialize/0.100.2/js/materialize.min.js"}
+    %link{href: "https://fonts.googleapis.com/icon?family=Material+Icons", rel: "stylesheet"}/
+    %link{href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css", rel: "stylesheet"}/
+  %body
+    #header
+      %nav.top_nav
+        %ul
+          %li
+            = link_to 'Home', '/', class: 'active'
+
+          %li
+            = link_to 'Contact', '/contact.html', class: 'active'
+
+          %li
+            = link_to 'About', '/about.html', class: 'active'
+    %img{height: "400px", src: "images/code.jpg", style: "padding-bottom:25px;", width: "100%"}
+    .main
+      .container
+        %h1 Bio
+        #bio.col.s12
+          %p
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      .container
+        %h1 Background
+        #background.col.s12
+          %p
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      .container
+        %h1 Projects
+        .row
+          .col.s4
+            .subsections
+              %a{href: "#"}
+                %h1{style: "color: white; vertical-align: middle; line-height: 200px; font-size: 50px;"} Fizzbuzz
+          .col.s4
+            .subsections
+              %a{href: "#"}
+                %h1{style: "color: white; vertical-align: middle; line-height: 200px; font-size: 50px;"} LibraryChallenge
+          .col.s4
+            .subsections
+              %a{href: "#"}
+                %h1{style: "color: white; vertical-align: middle; line-height: 200px; font-size: 50px;"} BMI Calculator
+      .container
+        .row
+          .col.s4
+            .subsections
+              %a{href: "#"}
+                %h1{style: "color: white; vertical-align: middle; line-height: 200px; font-size: 50px;"} Checkout Challenge
+          .col.s4
+            .subsections
+              %a{href: "#"}
+                %h1{style: "color: white; vertical-align: middle; line-height: 200px; font-size: 50px;"} SlowFood
+          .col.s4
+            .subsections
+              %a{href: "#"}
+                %h1{style: "color: white; vertical-align: middle; line-height: 200px; font-size: 50px;"} ATM Challenge
+        #footer
+        %iframe{allowfullscreen: "", frameborder: "0", height: "450", src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3590.873484632921!2d28.207281951156695!3d-25.840713883520397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95669f0ff0d4ff%3A0x197365953e0a5875!2s4+Burger+Ave%2C+Lyttelton+Manor%2C+Centurion%2C+0157!5e0!3m2!1sen!2sza!4v1505289148320", style: "border:0", width: "100%"}
+        Copyright &copy 2017

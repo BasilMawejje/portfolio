@@ -1,0 +1,10 @@
+= partial "_header"
+%h1 Contact Info:
+- data.contacts.each do |contact|
+    %h4= contact[:name]
+    %p= contact[:phone]
+    %p= contact[:address]
+    %p= contact[:province]
+    %p= contact[:city]
+    %p= contact[:country]
+= partial "_footer"
